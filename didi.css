@@ -1,0 +1,70 @@
+#navba{
+  position: sticky;
+}
+#navbar ul {
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+#navbar ul li a{
+  display: block;
+  font-size: 1rem;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+  
+}
+#navbar ul li a :hover{
+  color: azure;
+  display: block;
+  
+   
+}
+#navbar::before
+{
+  content: "";
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;/*apna black secondRy auR dusRa dekhe ye pRioRity*/
+  opacity: .9;
+}
+
+.section1{
+    /*background-image:url('pythnlgo.jpeg');*/
+    /*color:#ffffff;*/
+    background: url(pythnlgo.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; 
+  height: 800px;
+    /*background-repeat: no-repeat;*/
+    border: 20px;
+    position:absolute;
+}
+.section3{
+  /*background-image:url('pythnlgo.jpeg');*/
+  /*color:#ffffff;*/
+  background: url(imgercgntionkhe.jpg);
+background-repeat: no-repeat;
+/*background-size: 100% 100%; */
+ background-size: 100% 100%; 
+  /*background-repeat: no-repeat;*/
+  border: 20px;
+  position:absolute;
+}
+.explantin{
+    /*position:absolute;*/
+    display: flexbox;
+    font-size: 4ex;
+    color:rgb(36, 214, 0);/*sets the coloof text to blue*/
+    /*background-color: blueviolet;*/
+    font-style: oblique;/*wtingstyle*/
+    padding: 3ex;
+    z-index: -1;
+}
+.titles{
+   font-style: italic;
+   font-size: 5rem;
+   z-index: -1;
+}

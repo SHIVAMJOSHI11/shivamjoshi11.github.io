@@ -1,0 +1,144 @@
+
+
+   #navbar::before
+  {
+    content: "";
+    background-color: rgba(255, 0, 0, 0.596);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;/*apna black secondRy auR dusRa dekhe ye pRioRity*/
+    opacity: .5;
+  }
+   #navbar{
+       
+       display: flex;
+       height: 59px;
+       margin-bottom: 3rem;
+       border-radius: 200px;
+       overflow: auto;
+       position:sticky;
+       
+      /* position: relative;/list in column way*/
+   }
+   #navbar ul {
+    list-style: none;
+      display: flex;
+    }
+  #navbar ul li a{
+    display: block;
+    font-size: 1rem;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    
+  }
+  #navbar ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    opacity: .5;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .titles{
+   /* font-size: 27px;
+    font-style: oblique;
+    font-weight: bold;*/
+    font-size: 60px;
+    font-weight: bolder;
+
+  }
+
+  .box{
+    margin-bottom:3px;
+  }
+  #section1{
+   /* overflow: auto;/*make scllbaif bahaatahe galti html ki thi galat div band chalu ho the
+    display: flex;*/
+    height: 350px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-column-gap: 320px;
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    background-image: url(voiceasstn.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: cornsilk;
+    z-index: -1;/*apna black secondRy auR dusRa dekhe ye pRioRity*/
+    opacity: .8;
+    font-size: 29px;
+    
+    
+  }
+  
+  #section3{
+    height: 350px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-column-gap: 320px;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    background-image: url(activityka.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: cornsilk;
+    z-index: -1;/*apna black secondRy auR dusRa dekhe ye pRioRity*/
+    opacity: .8;
+    font-size: 29px;
+    
+  }
+  #section4{
+    height: 420px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-column-gap: 320px;
+    padding: 2rem;
+    margin-top: 1.6rem;
+    margin-bottom: 4rem;
+    background-image: url(pythnlgo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: cornsilk;
+    z-index: -1;/*apna black secondRy auR dusRa dekhe ye pRioRity*/
+    opacity: .8;
+    font-size: 29px;
+    
+  }
+  .mvvali{
+    font-size: 60px;
+    font-weight: bolder;
+  }
+  .flnk li{
+    list-style: none;   
+    height: 50px;
+  }
+  
+  .flnk a{
+    text-decoration: none;
+    display: inline;
+    background-color: black;
+    color: white;
+    border-radius:13px ;
+    font-size: large;
+    font-weight: 900;
+    padding: 10px 10px;
+  }
+  .flnk a:hover
+  {
+    font-size: larger;
+  }
+  .flnk{
+    margin-top: 30px;
+  }
+
+
+  
+  
+  
+  
