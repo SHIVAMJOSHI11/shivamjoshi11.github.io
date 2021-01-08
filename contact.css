@@ -70,13 +70,15 @@ font-weight: bold;
 }
 @media only screen and (max-width:600px){
   #navbar{
-    background-color: rgb(255, 115, 115);
+       
     display: flex;
-    opacity: .9;
-    height: 59px;
+    height: 49px;
     margin-bottom: 2rem;
-    border-radius: 200px;
-    margin-top: 10px;
+    border-radius: 100px;
+    overflow: auto;
+    position:sticky;
+    background-color: rgba(255, 0, 0, 0.596);
+    
    /* position: relative;/list in column way*/
 }
 #navbar ul {
@@ -86,11 +88,11 @@ font-weight: bold;
 #navbar ul li a{
  display: block;
  font-size: 1rem;
- padding:.2px 22px;
+ padding: 3px 8px;
  border-radius: 20px;
  text-decoration: none;
  color: black;
- font-size: 20px;
+ font-size: 17px;
  font-weight: 700;
  
 }

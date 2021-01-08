@@ -138,24 +138,16 @@
   }
 
 @media only screen and (max-width:600px){
-   #navbar::before
-  {
-    content: "";
-    background-color: rgba(255, 0, 0, 0.596);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;/*apna black secondRy auR dusRa dekhe ye pRioRity*/
-    opacity: .5;
-  }
+ 
    #navbar{
        
        display: flex;
        height: 49px;
        margin-bottom: 2rem;
-       border-radius: 200px;
+       border-radius: 100px;
        overflow: auto;
        position:sticky;
+       background-color: rgba(255, 0, 0, 0.596);
        
       /* position: relative;/list in column way*/
    }
@@ -166,11 +158,11 @@
   #navbar ul li a{
     display: block;
     font-size: 1rem;
-    padding: 3px 22px;
+    padding: 3px 8px;
     border-radius: 20px;
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 700;
     
   }
@@ -256,6 +248,7 @@
     list-style: none;   
     height: 70px;
   }
+
   
   .flnk a{
     text-decoration: none;
@@ -266,13 +259,21 @@
     font-size: 10px;
     font-weight: 500;
     padding: 10px 10px;
+    border-bottom: 20px;
+    
+
   }
+  .flnk li:nth-child(2){
+    margin-bottom: 5%;
+  
+   }
+  
   .flnk a:hover
   {
     font-size: larger;
   }
   .flnk{
-    margin-top: 30px;
+    margin-top: 20px;
   }
 }
   
