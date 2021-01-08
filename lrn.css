@@ -207,7 +207,7 @@
   }
   
   #section3{
-    height: 350px;
+    height: 390px;
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-column-gap: 100px;
@@ -270,7 +270,10 @@
   
   .flnk a:hover
   {
-    font-size: 12;
+    color: black;
+    background-color: blanchedalmond;
+    font-size: 8px;
+    font-weight: 700;
   }
   .flnk{
     margin-top: 20px;
