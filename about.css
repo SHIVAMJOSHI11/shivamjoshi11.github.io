@@ -67,3 +67,75 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+@media only screen and (max-width:600px){
+  :root{
+    background-image: url(backgr1.jpg);
+}
+#navbar::before
+{
+  content: "";
+  background-color: rgba(255, 0, 0, 0.596);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;/*apna black secondRy auR dusRa dekhe ye pRioRity*/
+  opacity: .5;
+}
+ #navbar{
+     
+     display: flex;
+     height: 59px;
+     margin-bottom: 3rem;
+     border-radius: 200px;
+     overflow: auto;
+     position:sticky;
+     
+    /* position: relative;/list in column way*/
+ }
+ #navbar ul {
+  list-style: none;
+    display: flex;
+  }
+#navbar ul li a{
+  display: block;
+  font-size: 1rem;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  
+}
+#navbar ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    opacity: .5;
+    font-size: 25px;
+    cursor: pointer;
+  }
+.into{
+    height: 350px;
+    display: grid;
+    grid-template-columns: 20% 60%;
+    grid-column-gap: 100px;
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    
+}
+.likh{
+    margin-right: 10px;
+    margin-top: 17px;
+    font-size:16px;
+    font-weight: 900;
+}
+.imsd{
+    height: 230px;
+    width:100px;
+    background-image: url(imjk.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+}
