@@ -1,6 +1,6 @@
 
 
-   #navbar::before
+  /* #navbar::before
   {
     content: "";
     background-color: rgba(255, 0, 0, 0.596);
@@ -8,17 +8,20 @@
     height: 100%;
     position: absolute;
     z-index: -1;/*apna black secondRy auR dusRa dekhe ye pRioRity*/
-    opacity: .5;
-  }
+   /* opacity: .5;
+  }*/
    #navbar{
        
        display: flex;
        height: 59px;
        margin-bottom: 3rem;
        border-radius: 200px;
-       overflow: auto;
+       /*overflow: auto;*/
        position:sticky;
-       
+       background-color: rgb(255, 28, 28);
+       width: 100%;
+       top: 0%;
+       z-index: +1;
       /* position: relative;/list in column way*/
    }
    #navbar ul {
@@ -145,10 +148,13 @@
        height: 49px;
        margin-bottom: 2rem;
        border-radius: 100px;
-       overflow: auto;
+      /* overflow: auto;*/
        position:sticky;
-       background-color: rgba(255, 0, 0, 0.596);
-       
+      /* background-color: rgba(255, 0, 0, 0.596);*/
+       background-color: rgb(255, 10, 10);
+       width: 100%;
+       top: 0%;
+       z-index: +1;
       /* position: relative;/list in column way*/
    }
    #navbar ul {
