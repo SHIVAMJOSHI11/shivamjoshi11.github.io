@@ -289,3 +289,79 @@
   
   
   
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+body.dark-mode #navbar {
+    background-color: #333;
+}
+
+body.dark-mode #navbar ul li a {
+    color: #f0f0f0;
+}
+
+body.dark-mode #navbar ul li a:hover {
+    background-color: #555;
+    color: #f0f0f0;
+}
+
+body.dark-mode .titles {
+    color: #f0f0f0;
+}
+
+body.dark-mode .flnk a {
+    background-color: #555;
+    color: #f0f0f0;
+}
+
+body.dark-mode .flnk a:hover {
+    background-color: #777;
+    color: #f0f0f0;
+}
+
+body.dark-mode .box {
+    color: #f0f0f0;
+}
+
+/* Adjust background images for better visibility in dark mode if needed */
+body.dark-mode #section1,
+body.dark-mode #section3,
+body.dark-mode #section4 {
+    filter: brightness(0.7);
+}
+
+/* Dark mode toggle button styling for better positioning */
+#darkModeToggle {
+    margin-left: auto; /* Pushes the button to the right */
+    padding-right: 20px;
+}
+
+@media only screen and (max-width:600px){
+    body.dark-mode #navbar ul li a{
+        color: #f0f0f0;
+    }
+    body.dark-mode #navbar{
+        background-color: #333;
+    }
+    body.dark-mode #navbar ul li a:hover{
+        background-color: #555;
+        color: #f0f0f0;
+    }
+    body.dark-mode .titles{
+        color: #f0f0f0;
+    }
+    body.dark-mode .flnk a{
+        background-color: #555;
+        color: #f0f0f0;
+    }
+    body.dark-mode .flnk a:hover{
+        background-color: #777;
+        color: #f0f0f0;
+    }
+    body.dark-mode .box {
+        color: #f0f0f0;
+    }
+}
